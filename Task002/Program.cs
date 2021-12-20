@@ -1,4 +1,4 @@
-﻿int numberA = 22;
+﻿int numberA = 2;
 int numberB = 3;
 
 if (numberA > numberB)
