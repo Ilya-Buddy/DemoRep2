@@ -1,4 +1,4 @@
-﻿Console.Write("Введите цифру от 0 до 6");
+﻿Console.Write("Введите цифру от 0 до 6: ");
 string number = Console.ReadLine();
 
 if(number == "0")
