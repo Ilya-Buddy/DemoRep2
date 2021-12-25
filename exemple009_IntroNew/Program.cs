@@ -5,11 +5,11 @@
     if (arg3 > result) result = arg3;
     return result;
 }
-int[] array = {11,22,33,43,5,66,76,83,92,};
+int[] array = { 11, 22, 33, 43, 5, 66, 76, 83, 92, };
 
 int max = Max(
-    Max(array[0],array[1],array[2]),
-    Max(array[3],array[4],array[5]),
-    Max(array[6],array[7],array[8])
+    Max(array[0], array[1], array[2]),
+    Max(array[3], array[4], array[5]),
+    Max(array[6], array[7], array[8])
 );
 Console.WriteLine(max);
