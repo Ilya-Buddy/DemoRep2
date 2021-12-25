@@ -1,4 +1,4 @@
-﻿int[] array = { 11, 22, 33, 43, 5, 66, 76, 83, 92, };
+﻿int[] array = { 11, 22, 33, 43, 5, 66, 76, 83, 92};
 
 int n = array.Length;
 int find = 5;
@@ -9,4 +9,5 @@ while (index < n)
     {
         Console.WriteLine(index);
     }
+    index++;
 }
