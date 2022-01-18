@@ -1,2 +1,4 @@
-﻿int numberA = 2;
+﻿//Вывести квадрат числа
+
+int numberA = 6;
 Console.WriteLine(numberA * numberA);

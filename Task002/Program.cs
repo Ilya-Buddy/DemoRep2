@@ -1,4 +1,6 @@
-﻿int numberA = 203;
+﻿//Даны два числа. Показать большее и меньшее число
+
+int numberA = 203;
 int numberB = 33;
 
 if (numberA > numberB)

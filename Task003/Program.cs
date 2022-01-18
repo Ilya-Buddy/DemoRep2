@@ -1,4 +1,6 @@
-﻿Console.Write("Введите цифру от 0 до 6: ");
+﻿//По заданному номеру дня недели вывести его название
+
+Console.Write("Введите цифру от 0 до 6: ");
 string number = Console.ReadLine();
 
 if(number == "0")
