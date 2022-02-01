@@ -1,5 +1,5 @@
 ﻿Random rnd = new Random();
-int count = rnd.Next(20, 21);
+int count = rnd.Next(10, 11);
 string password = string.Empty;
 int r;
 char[] chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+{}|".ToCharArray();

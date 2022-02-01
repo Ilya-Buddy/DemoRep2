@@ -1,4 +1,4 @@
 ﻿//Вывести квадрат числа
 
-int numberA = 6;
-Console.WriteLine(numberA * numberA);
+int numberA = 2;
+Console.WriteLine($"Квадрат числа: {numberA * numberA}");
