@@ -1,11 +1,11 @@
-﻿// Вид 1
+﻿// Вид 1 Ничего не принимает, ничего не возвращает
 void Method1()
 {
     Console.WriteLine("Автор Илья Б.");
 }
 //Method1();
 
-// Вид 2
+// Вид 2 Что то принимает, ничего не возвращает
 
 void Method2(string msg, int count)
 
@@ -18,14 +18,9 @@ void Method2(string msg, int count)
     }
 }
 //Method2("Текст", 3);
+//Method2(count: 4, msg: "Трали Вали");
 
-//void Method2(string msg)
-//{
-// Console.WriteLine(msg);
-//}
-//Method2("Текст");
-
-// Вид 3
+// Вид 3 Ничего не принимают, что-то возвращают
 
 int Method3()
 {
@@ -34,7 +29,7 @@ int Method3()
 int year = Method3();
 //Console.WriteLine(year);
 
-// Вид 4
+// Вид 4 Что-то принимают, что-то возвращают
 
 //string Method4( int count, string text)
 //{
@@ -63,4 +58,4 @@ string Method4(int count, string text)
 }
 
 string res = Method4(5, "z");
-Console.WriteLine(res);
+//Console.WriteLine(res);
